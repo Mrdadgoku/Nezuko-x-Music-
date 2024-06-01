@@ -27,7 +27,7 @@ MISHI = [
 
 #--------------------------
 
-MUST_JOIN = "the_friendz"
+MUST_JOIN = "Best_Friend_Forwver1230"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -43,12 +43,12 @@ async def must_join_channel(app: Client, msg: Message):
                 chat_info = await app.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
-                await msg.reply_photo(random.choice(MISHI), caption=f"❖ ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ !\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ๛ᴀ ᴠ ɪ s ʜ ᴀ ♡゙ ᴍᴜsɪᴄ ʙᴏᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʏᴏᴜ ᴊᴏɪɴᴇᴅ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ",
+                await msg.reply_photo(random.choice(MISHI), caption=f"❖ ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ !\n\n● ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ 𝐆Ⓞ𝐊𝐔 𝐗 𝐄𝐝𝐢𝐭𝐢𝐨𝐧 ♡゙ ᴍᴜsɪᴄ ʙᴏᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʏᴏᴜ ᴊᴏɪɴᴇᴅ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/choti_bachii"),
-                                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=link),
+                                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/goku_modz"),
+                                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Best_Friend_Forwver1230"),
                             ]
                         ]
                     )
