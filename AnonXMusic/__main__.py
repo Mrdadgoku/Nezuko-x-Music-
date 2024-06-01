@@ -50,12 +50,12 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("AnonXMusic").info(
-        "✦ EDIT BY ➥ ROY EDITX...🐝"
+        "✦ EDIT BY ➥ GOKUXEDITION...🐝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AnonXMusic").info("❖ Stopping AVISHA Music Bot...💌")
+    LOGGER("AnonXMusic").info("❖ Stopping N𝗲𝘇𝘂𝗞𝗼 Music Bot...💌")
 
 
 if __name__ == "__main__":
