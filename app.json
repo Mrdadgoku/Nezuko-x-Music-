@@ -1,7 +1,7 @@
 {
-    "name": "AVISHA MUSIC",
+    "name": "N𝗲𝘇𝘂𝗞𝗼 ✘ 𝘼𝙨𝙨𝙞𝙨𝙩𝙖𝙣𝙩™",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg",
+    "logo": "https://graph.org/file/9c5d0138224bd25f91d73.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6922271843",
+        "value": "6462365139",
         "required": true
       },
       "STRING_SESSION": {
